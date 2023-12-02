@@ -1,0 +1,41 @@
+.miss-out-section{
+    background: linear-gradient(to top, rgb(253, 242, 236) 0%,  rgb(255, 255, 255) 100%);
+}
+
+.miss-out{
+    margin: 150px 180px 0; 
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.651);
+    border-radius: 40px;
+    padding: 100px;
+}
+.miss-out .heading{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 15px 0;
+}
+.miss-out .sub-heading{
+    font-weight: 500;
+    font-size: 20px;
+    color: grey;
+
+}
+.miss-out img{
+    height: 300px;
+    object-fit: contain;
+}
+.miss-out .button{
+    background-color: rgb(130, 71, 255);
+    color: white;
+    width: 200px;
+    height: 50px;
+    margin: 15px 0;
+    padding: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 15px;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: calc(100%);
+    font-size: 17px;
+    border-bottom: 1px solid rgba(190, 190, 190, 0.448);
+    background-color: rgb(253, 242, 236);
+}
+.logo{
+    margin-left: 20px;
+    width: 200px;
+    height: 50px;
+    object-fit: cover;
+}
+.nav-ul{
+    display: flex;
+}
+.nav-ul li{
+    margin: 10px 25px;
+    list-style-type: none;
+    cursor: pointer;
+}
+.nav-ul li a{
+    text-decoration: none;
+    color: black;
+}

@@ -1,0 +1,15 @@
+.testimonials {
+    margin-top: 100px;
+    padding: 0 150px;
+}
+.testimonials .heading{
+    font-size: 50px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.testimonials .sub-heading{
+    font-weight: 500;
+    font-size: 20px;
+    color: grey;
+    max-width: 70%;
+}
