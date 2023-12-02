@@ -1,10 +1,10 @@
 import React from 'react'
 import { motion } from "framer-motion"
-import './Integration.css'
+import './index.css'
 import { TitleContainer } from '../TitleContainer/TitleContainer';
 import i1 from '../../assets/i1.webp'
 
-const Integration = () => {
+export const Integration = () => {
   return (
     
     <section className='integration-section'>
@@ -23,4 +23,3 @@ const Integration = () => {
     </section>
   )
 }
-export default Integration
