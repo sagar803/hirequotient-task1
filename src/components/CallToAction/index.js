@@ -8,8 +8,8 @@ export const CallToAction = () => {
   return (
     <section className='cta-section'>
       <motion.div
-        initial={{ opacity: 0, scale: 0.8 }}
-        whileInView={{ opacity: 1, scale: 1, transition: { duration: 0.5 }}}
+        initial={{ opacity: 0, scale: 1, y: 50  }}
+        whileInView={{ y : 0, opacity: 1, scale: 1, transition: { duration: 0.5 }}}
       >
         <div className='cta'>
           <TitleContainer title={'👋 WELCOME TO MANAGE WISE!'}/>
@@ -20,7 +20,13 @@ export const CallToAction = () => {
             <div className='b1'>Get Started</div>
             <div className='b2'>Watch Demo</div>
           </div>
-          <img className='img' src={dashboradImage} alt='dashboard'></img>
+          <motion.img 
+            initial={{ y: -50 }}
+            whileInView={{ y: 0, transition: { duration: 2 }}}
+            className='img' 
+            src={dashboradImage} 
+            alt='dashboard' 
+          />
         </div>
       </ motion.div>
     </section>
