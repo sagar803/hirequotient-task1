@@ -8,7 +8,7 @@
     background-color: rgb(253, 242, 236);
 }
 .logo{
-    margin-left: 20px;
+    margin: 20px;
     width: 200px;
     height: 50px;
     object-fit: cover;
@@ -24,4 +24,10 @@
 .nav-ul li a{
     text-decoration: none;
     color: black;
+}
+
+@media (max-width: 650px) {
+    .nav-ul{
+        display: none;
+    }
 }

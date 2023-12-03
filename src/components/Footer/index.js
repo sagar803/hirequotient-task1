@@ -19,7 +19,7 @@ export const Footer = () => {
                 <li>Testimonials</li>
             </ul>
         </div>
-        <p style={{padding: '40px 180px'}}>© 2022 ManageWise, Inc.</p>
+        <p className='foot' >© 2022 ManageWise, Inc.</p>
       </ motion.div>
   )
 }

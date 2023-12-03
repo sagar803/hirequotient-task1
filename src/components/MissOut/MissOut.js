@@ -13,7 +13,7 @@ export const MissOut = () => {
     >
         <div className='miss-out'>
             <TitleContainer title={'👋  DO NOT MISS OUT'}/>
-            <div className='flex'>
+            <div className='miss-out-flex'>
                 <div className='container1'>
                     <p className='heading'>Unleash your <span style={{   color: '#fe8162'}}>Potential</span> with us</p>
                     <p className='sub-heading'>Join our community of ambitious individuals and organizations eager to make a difference.</p>

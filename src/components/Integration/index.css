@@ -4,7 +4,7 @@
     padding-top: 100px;
     color: white;
 }
-.flex{
+.integration-flex{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,4 +31,20 @@
     padding-top: 50px ;
     width: 100%;
     object-fit: contain;
+}
+
+@media (max-width: 650px) {
+    .integration-section{
+        padding-top: 20px;
+    }
+    .integration .heading{
+        font-size: 35px;
+    }
+    .integration .sub-heading{
+        font-size: 20px;
+        max-width: 100%;
+    }
+    .integration{
+        width: 80%;
+    }
 }

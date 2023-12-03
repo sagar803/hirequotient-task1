@@ -9,7 +9,7 @@ export const Integration = () => {
     
     <section className='integration-section'>
       <motion.div
-        className='flex'
+        className='integration-flex'
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1, scale: 1, transition: { duration: 1.5 }}}
       >

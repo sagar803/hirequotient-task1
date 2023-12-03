@@ -61,3 +61,18 @@
     color: grey;
     font-weight: 500;
 }
+
+@media (max-width: 650px) {
+    .feature-container-1, .feature-container-2{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: 35px;
+    }    
+    .f1, .f2{
+        width: 90%;
+    }
+    .feature{
+        width: 90%;
+    }
+}

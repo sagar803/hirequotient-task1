@@ -1,13 +1,17 @@
 .miss-out-section{
     background: linear-gradient(to top, rgb(253, 242, 236) 0%,  rgb(255, 255, 255) 100%);
 }
-
 .miss-out{
     margin: 150px 180px 0; 
     background-color: white;
-    border: 1px solid rgba(128, 128, 128, 0.651);
+    border: 1px solid rgba(128, 128, 128, 0.274);
     border-radius: 40px;
     padding: 100px;
+}
+.miss-out-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .miss-out .heading{
     font-size: 50px;
@@ -21,7 +25,7 @@
 
 }
 .miss-out img{
-    height: 300px;
+    width: 600px;
     object-fit: contain;
 }
 .miss-out .button{
@@ -38,4 +42,24 @@
     border: 1px solid grey;
     border-radius: 15px;
     cursor: pointer;
+}
+@media (max-width: 650px) {
+    .miss-out{
+        margin: 100px 20px; 
+        padding: 50px;
+    }
+    .miss-out .heading{
+        font-size: 35px;
+    }
+    .miss-out .sub-heading{
+        font-size: 20px;
+        max-width: 100%;
+    }
+    .miss-out img{
+        width: 100%;
+    }
+    .miss-out-flex{
+        display: flex;
+        flex-direction: column;
+    }
 }

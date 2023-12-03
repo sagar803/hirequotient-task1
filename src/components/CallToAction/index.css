@@ -48,3 +48,16 @@
     width: 80%;
     margin: 50px;
 }
+@media (max-width: 850px) {
+    .cta .heading{
+        font-size: 50px;
+        max-width: 100%;
+    }
+    .cta .sub-heading{
+        font-size: 20px;
+        max-width: 100%;
+    }
+    .cta .buttons-container{
+        flex-direction: column;
+    }
+}
