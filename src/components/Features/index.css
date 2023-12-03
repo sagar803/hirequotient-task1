@@ -62,7 +62,7 @@
     font-weight: 500;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 850px) {
     .feature-container-1, .feature-container-2{
         width: 100%;
         flex-direction: column;

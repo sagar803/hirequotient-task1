@@ -24,7 +24,7 @@
     align-items: center;
     gap: 35px;
 }
-@media (max-width: 650px) {
+@media (max-width: 850px) {
     .price-cards-container{
         flex-direction: column;
     }    
