@@ -8,6 +8,7 @@ import { Pricing } from "./components/Pricing/index.js";
 import { Testimonials } from "./components/Testimonials";
 import { MissOut } from "./components/MissOut/MissOut.js";
 import { Footer } from "./components/Footer/index.js";
+import { Help } from "./components/Help/index.js";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Features />
       <Explore />
       <Integration />
+      <Help />
       <Pricing />
       <Testimonials />
       <MissOut />
